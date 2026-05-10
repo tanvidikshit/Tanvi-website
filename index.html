@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="description" content="Tanvi Dikshit — professional model, brand ambassador, and fashion collaborator. Portfolio and contact." />
   <title>Tanvi Dikshit | Model & Brand Ambassador</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -11,6 +11,31 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div
+    class="site-gate"
+    id="site-gate"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="site-gate-title"
+    aria-describedby="site-gate-desc"
+  >
+    <div class="site-gate-panel">
+      <p class="site-gate-eyebrow">Quick question</p>
+      <h2 class="site-gate-title" id="site-gate-title">Do you follow <span class="site-gate-handle">@tanvi_hxrx</span>?</h2>
+      <p class="site-gate-desc" id="site-gate-desc">
+        Tap an option below. If you are not following yet, we will open Instagram so you can.
+      </p>
+      <div class="site-gate-actions">
+        <button type="button" class="site-gate-btn site-gate-btn--yes" id="site-gate-yes" autofocus>
+          Yes, I follow
+        </button>
+        <button type="button" class="site-gate-btn site-gate-btn--no" id="site-gate-no">
+          Not yet
+        </button>
+      </div>
+    </div>
+  </div>
+
   <div class="grain" aria-hidden="true"></div>
 
   <header class="site-header">
@@ -93,67 +118,144 @@
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167438.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Sunset Drape</h3><p>Fluid movement</p></div>
+            <div class="gallery-cap">
+              <h3>Sunset Drape</h3>
+              <p>Fluid movement</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167439.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Mirror Dance</h3><p>Reflective set</p></div>
+            <div class="gallery-cap">
+              <h3>Mirror Dance</h3>
+              <p>Reflective set</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167441.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Onyx Session</h3><p>Deep tones</p></div>
+            <div class="gallery-cap">
+              <h3>Onyx Session</h3>
+              <p>Deep tones</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167443.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Lace Horizon</h3><p>Detail focus</p></div>
+            <div class="gallery-cap">
+              <h3>Lace Horizon</h3>
+              <p>Detail focus</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167445.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Cobalt Muse</h3><p>Colour story</p></div>
+            <div class="gallery-cap">
+              <h3>Cobalt Muse</h3>
+              <p>Colour story</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167447.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Palais Steps</h3><p>Grand setting</p></div>
+            <div class="gallery-cap">
+              <h3>Palais Steps</h3>
+              <p>Grand setting</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167449.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Silhouette Study</h3><p>Form &amp; posture</p></div>
+            <div class="gallery-cap">
+              <h3>Silhouette Study</h3>
+              <p>Form &amp; posture</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167450.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Meadow Bloom</h3><p>Outdoor light</p></div>
+            <div class="gallery-cap">
+              <h3>Meadow Bloom</h3>
+              <p>Outdoor light</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167451.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Ethereal Fold</h3><p>Soft drapery</p></div>
+            <div class="gallery-cap">
+              <h3>Ethereal Fold</h3>
+              <p>Soft drapery</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167452.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Signature Look</h3><p>Brand alignment</p></div>
+            <div class="gallery-cap">
+              <h3>Signature Look</h3>
+              <p>Brand alignment</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
         <article class="gallery-card" data-tilt tabindex="0">
           <div class="gallery-card-inner">
             <div class="gallery-img-wrap"><img src="1001167453.jpg" alt="" loading="lazy" width="800" height="1000" /></div>
-            <div class="gallery-cap"><h3>Closing Light</h3><p>Final frame</p></div>
+            <div class="gallery-cap">
+              <h3>Closing Light</h3>
+              <p>Final frame</p>
+              <div class="gallery-like-row">
+                <button type="button" class="gallery-like-btn" aria-label="Like this photo" data-like-btn></button>
+                <span class="gallery-like-count" data-like-display aria-live="polite">—</span>
+              </div>
+            </div>
           </div>
         </article>
       </div>
