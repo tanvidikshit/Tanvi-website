@@ -69,9 +69,9 @@ body.gate-open {
   justify-content: center;
   padding: max(1.25rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right))
     max(1.25rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
-  background: rgba(6, 6, 8, 0.97);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(6, 6, 8, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 .site-gate[hidden] {
@@ -307,6 +307,9 @@ a:hover {
     flex-wrap: wrap;
     row-gap: 0;
     padding-bottom: 0.75rem;
+    position: sticky;
+    background: var(--bg-deep);
+    border-bottom: 1px solid var(--stroke);
   }
 
   .logo {
@@ -1206,35 +1209,6 @@ body.lightbox-open {
   .gallery {
     grid-template-columns: 1fr;
     gap: 1.1rem;
-  }
-
-  .gallery-card-inner {
-    display: grid;
-    grid-template-columns: 38% 1fr;
-    align-items: stretch;
-    min-height: 140px;
-  }
-
-  .gallery-img-wrap {
-    aspect-ratio: auto;
-    min-height: 100%;
-  }
-
-  .gallery-img-wrap img {
-    height: 100%;
-    min-height: 160px;
-  }
-
-  .gallery-cap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0.85rem 1rem 1rem;
-  }
-
-  .gallery-like-row {
-    margin-top: auto;
-    padding-top: 0.65rem;
   }
 
   .hero-sub {
